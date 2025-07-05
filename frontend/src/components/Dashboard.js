@@ -12,7 +12,7 @@ const Dashboard = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    const res = await fetch('http://localhost:5000/business-data', {
+    const res = await fetch('https://full-stack-intern-growthproai.onrender.com/business-data', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, location })
@@ -25,7 +25,7 @@ const Dashboard = () => {
 
   const regenerateHeadline = async () => {
     setLoading(true);
-    const res = await fetch(`http://localhost:5000/regenerate-headline?name=${name}&location=${location}`);
+    const res = await fetch(`https://full-stack-intern-growthproai.onrender.com/regenerate-headline?name=${name}&location=${location}`);
     const result = await res.json();
     setData(prev => ({ ...prev, headline: result.headline }));
     setLoading(false);
