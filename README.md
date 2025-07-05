@@ -17,7 +17,7 @@ A simple full-stack app that simulates how small businesses might view their Goo
 
 ##  Live Demo Links
 
-- **Frontend:** [https://your-frontend-url.vercel.app](https://your-frontend-url.vercel.app)
+- **Frontend:** [https://full-stack-intern-growthproai.vercel.app/](https://full-stack-intern-growthproai.vercel.app/)
 - **Backend:** [https://full-stack-intern-growthproai.onrender.com](https://full-stack-intern-growthproai.onrender.com)
 
 ---
