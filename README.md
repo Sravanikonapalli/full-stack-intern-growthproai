@@ -31,7 +31,7 @@ git clone https://github.com/Sravanikonapalli/full-stack-intern-growthproai.git
 cd full stack intern assign
 ```
 
-### 2. Frontend Setup (React + Tailwind CSS)
+### 2. Frontend Setup (React + CSS)
 
 ```bash
 cd frontend
